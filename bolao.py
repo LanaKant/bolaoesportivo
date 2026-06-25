@@ -22,10 +22,6 @@ with open(arquivo_selecoes, "r", encoding="utf-8") as f:
     for linha in f:
         selecoes.append(linha.strip())
 
-print(f"Seleções Lista: {selecoes_lista}")
-print("\n\n")
-print(f"Seleções: {selecoes}")
-
 print("=" *40)
 print("BOLÃO DA COPA DO MUNDO 2026")
 print("=" *40)
